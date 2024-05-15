@@ -1,0 +1,88 @@
+.home_banner_container {
+    position: relative;
+    display: flex;
+    padding-top: 0rem;
+  }
+  .home_bannerImage_container {
+    position: absolute;
+    padding-top: 0rem;
+    right: -170px;
+    z-index: -2;
+    max-width: 700px;
+  }
+  .home_image_section {
+    max-width: 600px;
+    flex: 1;
+   
+  }
+  .home_text_section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 6rem;
+  }
+  .primary_text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 500px;
+    color: #6a6a6a;
+   
+  }
+  .secondary_button {
+    margin: 2rem 0rem;
+    padding: 1rem 2.5rem;
+    background-color: rgb(95, 24, 142);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .primary_heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    color: #4c4c4c;
+    /* line-height: 5rem; */
+    max-width: 600px;
+  }
+  @media only screen and (max-width: 780px) {
+    .home_banner_container {
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem; // Увеличиваем верхний отступ
+    }
+    
+    .home_bannerImage_container {
+      max-width: 60%; // Ширина изображения занимает всю доступную ширину
+      margin-top: 2rem; // Отступ сверху для разделения текста и изображения
+      text-align: center;
+      right: 140px;
+    }
+    
+    .home_text_section {
+      padding-top: 3rem;
+      align-items: center;
+    }
+    
+    .primary_text {
+      max-width: 90%;
+      text-align: center;
+    }
+    
+    .primary_heading {
+      max-width: 90%;
+      text-align: center;
+    }
+
+    .home_bannerImage_container img{
+      margin-top: 17rem;
+      margin-bottom: 100px;
+      
+    }
+  }

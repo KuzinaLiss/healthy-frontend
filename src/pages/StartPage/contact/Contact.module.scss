@@ -1,0 +1,46 @@
+.contact_page_wrapper h1 {
+  max-width: 900px !important;
+}
+.contact_page_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 9rem 0rem;
+
+}
+.contact_form_container {
+  background-color: white;
+  max-width: 700px;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+.contact_form_container input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+}
+.secondary_button {
+  padding: 1rem 2.5rem;
+  background-color: rgb(95, 24, 142);
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 1rem;
+
+}

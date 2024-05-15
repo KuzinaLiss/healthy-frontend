@@ -1,0 +1,263 @@
+
+.container_writer{
+    background-color: white;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    width: 350px;
+ 
+    
+}
+.container_prod{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+   
+}
+.block_one{
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    
+}
+.container_dg{
+    width:120%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 20px;
+    width: 60%;
+}
+.die{
+    margin-left:27%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+.block_two{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    
+    
+}
+.block_three{
+    display: flex;
+    flex-direction: row;
+    
+   
+   
+    
+}
+.conteiner_Journal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 20px;
+    width: 38%;
+}
+
+
+th {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	background: #a36dc3;
+	font-size: 20px;
+	border-left: 1px solid #a46dc341;
+	border-right: 1px solid #a46dc341;
+
+}
+td {
+	text-align: left;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 18px;
+	vertical-align: top;
+}
+tr th:first-child, .table tbody tr td:first-child {
+	border-left: none;
+}
+thead tr th:last-child, .table tbody tr td:last-child {
+	border-right: none;
+}
+tr:nth-child(even){
+	background: #a46dc372;
+}
+
+.field{
+    width: 260px;
+    margin-right: 20px;
+    
+
+}
+.field_number{
+   
+    width: 120px;
+    margin-right: 20px;
+    
+
+}
+.add_prod{
+    margin-left: 25%;
+    font-size: 20px;
+}
+.container_writer table{
+    
+    padding-left: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container_writer caption{
+    
+    padding-left: 5%;
+    padding-top: 1rem;
+   
+}
+
+.container_prod table{
+    padding-left: 9%;
+    padding-top: 1rem;
+    padding-bottom: 5%;
+    
+}
+
+.container_prod caption{
+    
+    padding-left: 7%;
+    margin-top: 50%;
+    margin:20px;
+}
+.conteiner_Journal table{
+
+    padding-left: 1.5%;
+  
+}
+.conteiner_Journal caption{
+
+    margin-top: 10%;
+    margin-bottom: 3%;
+    padding-left: 3%;
+}
+button{
+    padding: 0.2rem 0.5rem;
+    background-color: rgb(95, 24, 142);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 400;
+   
+    transition: 0.2s;
+    display: flex;
+    
+  
+  }
+  
+  
+.checkbox{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 27%;
+    margin-top: 3%;
+}
+.checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.checkbox label{
+    margin-right: 20px;
+}
+.vibor{
+    display: flex;
+    
+    margin-left: 11%;
+    margin-top: 10%;
+
+}
+.combo{
+    width: 140px;
+    font-size: 18px;
+    margin-right: 3%;
+   
+}
+.ves{
+    width: 70px;
+    font-size: 18px;
+    margin-right: 5%;
+}
+.prod_save{
+    padding: 0.5rem 1rem;
+    background-color: rgb(95, 24, 142);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 400;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-bottom: 5%;
+}
+.dg{
+   
+   width: 370px;
+   margin-left: 5%;
+    
+}
+.hidden{
+    display: none;
+    
+}
+canvas{
+    width: 400px;
+}
+.vid{
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 18px;
+   
+}
+.vid div p{
+    margin-bottom: 12%;
+}
+.rejim{
+    margin-left: 35%;
+    margin-top: 3%;
+    color:rgb(95, 24, 142);
+}
+.prod_save_2{
+    padding: 0.5rem 1rem;
+    background-color: rgb(95, 24, 142);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 400;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    margin-top: 30%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+.plus{
+    color:white;
+}

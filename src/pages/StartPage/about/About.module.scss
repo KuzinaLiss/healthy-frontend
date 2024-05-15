@@ -1,0 +1,60 @@
+.about_section_container {
+    margin-top: 20rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+
+  .about_section_image_container {
+    flex: 2;
+   margin-left: -70px;
+  }
+  .about_section_text_container {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+   text-align:right;
+  }
+  .primary_subheading {
+    font-weight: 500;
+    color: #fe9e0d;
+    font-size: 1.15rem;
+  }
+  .about_buttons_container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .primary_text {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: #6a6a6a;
+    margin: 1.5rem 0rem;
+    width: 600px;
+    
+  }
+  .secondary_button {
+    padding: 1rem 2.5rem;
+    background-color: rgb(95, 24, 142);
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  
+  }
+  .primary_heading {
+    font-size: 4rem;
+    color: #4c4c4c;
+    width: 600px;
+  }

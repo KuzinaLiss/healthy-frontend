@@ -1,0 +1,69 @@
+
+.cards_container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: nowrap;
+    align-items: center;
+    width:100%;
+}
+
+.cards_title{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: #4c4c4c;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.card {
+    width: 270px;
+    height: 420px;
+    background: linear-gradient(to top, rgb(140, 6, 230), #EAE5FF);
+    transition: transform 0.5s ease;
+    box-shadow: 0 10px 20px rgba(27, 2, 55, 0.384)
+}
+ .card:hover{
+    transform: scale(1.2);
+ }
+
+.title_hand{
+    margin-left: 23%;
+}
+
+.title_press{
+    margin-left: 16%;
+}
+
+.title_body{
+    margin-left: 10%;
+}
+.title_foot{
+    margin-left: 22%;
+}
+
+h3{
+    color: white;
+    padding-bottom: 3%;
+    
+}
+ .secondary_button {
+    padding: 1rem 6rem;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(95, 24, 142);
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  }
+  .linkWithoutUnderline {
+    text-decoration: none; /* Убираем подчеркивание только у ссылок с классом .linkWithoutUnderline */
+  }
